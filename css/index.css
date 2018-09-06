@@ -253,10 +253,6 @@ header .logo {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
 }
 @media (max-width: 720px) {
   .cta img {
@@ -273,7 +269,7 @@ header .logo {
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
-  padding: 1% 0;
+  padding: 10px 0;
 }
 @media (max-width: 720px) {
   .main-content {
